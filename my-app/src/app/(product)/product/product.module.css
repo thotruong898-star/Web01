@@ -1,0 +1,88 @@
+.itemImg {
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  transition: transform 0.3s ease; 
+}
+
+.itemH3 {
+  line-height: 19px;
+  text-align: left;
+  height: 40px;
+  color: #1d2939;
+  margin-bottom: 8px;
+  font-size: 14px;
+  overflow: hidden;
+}
+
+.price {
+  margin-bottom: 8px;
+  text-align: left;
+  color: #dd2f2c;
+  font-size: 18px;
+}
+
+.priceAndDiscount {
+  display: flex;
+  text-align: left;
+  justify-content: flex-start;
+  height: 24px;
+  align-items: center;
+  margin-top: 8px;
+}
+
+.priceAndDiscount label {
+  margin: 0 7px 0 0 !important;
+  color: #a4a4a4 !important;
+  text-decoration-line: line-through;
+  font-size: 14px;
+  line-height: 17px;
+  font-weight: 200;
+}
+
+.price small {
+  padding: 3px;
+  margin-left: 0;
+  vertical-align: text-top;
+  font-weight: 200;
+  font-size: 14px;
+  color: #eb5757;
+  line-height: 18px;
+}
+
+.contait {
+  display: flex;
+  /* height: 30px; */
+  align-items: center;
+  /* background-color: #f7c913; */
+  justify-content: center;
+  border-radius: 10px;
+
+  border: 0.9 solid aqua;
+}
+
+.count {
+  margin-left: 20px;
+}
+
+.btnBuy {
+  display: flex;
+  /* font-size: 12px; */
+  font-weight: 700;
+  color: #2a83e9;
+  align-items: center;
+  justify-content: center;
+  background: rgb(190, 215, 244);
+  margin-top: 5px;
+  padding: 4px;
+  border-radius: 3px;
+}
+
+.btnBuy a{
+    background: rgb(190, 215, 244);
+   text-decoration: none;
+}
+
+.itemImg:hover{
+    transform: translateY(-5px);
+}

@@ -1,123 +1,146 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    background-color: #f2f4f7;
-    font-size: 14px;
-    font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #fff;
+  font-size: 14px;
+  font-family: sans-serif;
 }
 
 *::after,
 *::before {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 :root {
-    --primary-color: ;
+  --primary-color: ;
 }
 
 .main {
-    display: flex;
-    height: 1800px;
-    background-color: aqua;
-    justify-content: center;
-    overflow: hidden;
+  display: flex;
+  height: 1800px;
+  background-color: aqua;
+  justify-content: center;
+  overflow: hidden;
 }
 
 .main-test1 {
-    width: 1200px;
-    margin-top: 20px;
-    background-color: aquamarine;
-    display: flex;
-    border: 1px solid black;
-    border-radius: 10px;
-    overflow: hidden;
+  width: 1200px;
+  margin-top: 20px;
+  background-color: aquamarine;
+  display: flex;
+  border: 1px solid black;
+  border-radius: 10px;
+  overflow: hidden;
 }
 
 .promotion {
-    margin-top: 40px;
+  margin-top: 40px;
 }
 
 .promotion h3 {
-    background-color: none;
+  background-color: none;
 }
 
 .promotion ul {
-    display: flex;
-    list-style-type: none;
-    justify-content: center;
+  display: flex;
+  list-style-type: none;
+  justify-content: center;
 }
 
 .promotion ul li {
-    cursor: pointer;
-    background-color: #fff;
-    padding: 5px 10px 10px 10px;
+  cursor: pointer;
+  background-color: #fff;
+  padding: 5px 10px 10px 10px;
 }
 
 .promotion ul li:hover {
-    background-color: blue;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
+  background-color: blue;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
 }
 
 .promotion ul li:not(:last-child) {
-    padding-right: 20px;
+  padding-right: 20px;
 }
 
 .banner-media {
-    display: flex;
-    background-color: #754b01;
-    height: 44px;
-    width: 100%;
-    justify-content: center;
+  display: flex;
+  background-color: #754b01;
+  height: 44px;
+  width: 100%;
+  justify-content: center;
 }
 
 .menu-media {
-    display: flex;
-    justify-content: center;
-    background: #ffd500;
+  display: flex;
+  justify-content: center;
+  background: #ffd500;
 }
 
 .menu-media ul {
-    list-style-type: none;
-    display: flex;
-    justify-content: center;
-    /* border: 1px solid black; */
-    width: 1200px;
-    border-radius: 10px;
-    background: #ffd500;
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  /* border: 1px solid black; */
+  width: 1200px;
+  border-radius: 10px;
+  background: #ffd500;
 }
 
 .menu-media ul li:not(:last-child) {
-    margin-right: 10px;
+  margin-right: 10px;
 }
 
 .menu-media ul li {
-    background: #ffd500;
-    padding: 5px 10px 10px 10px;
-    cursor: pointer;
+  background: #ffd500;
+  padding: 5px 10px 10px 10px;
+  cursor: pointer;
 }
 
 .menu-media ul li:hover {
-    background-color: #f2f4f7;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
+  background-color: #f2f4f7;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
 }
 
 .list-product {
-    height: 100%;
-    width: 1200px;
-    display: flex;
-    margin-top: 30px;
-    margin: 0 auto;
-    padding: 0 20px 5px 20px;
-    justify-content: center;
+  height: 100%;
+  width: 1200px;
+  display: flex;
+  /* flex-wrap: wrap; */
+  margin-top: 30px;
+  margin: 0 auto;
+  padding: 0 20px 5px 20px;
+  /* justify-content: center; */
 }
 
 .item {
-    height: 345px;
-    width: 175px;
-    border: 1.111px solid #0d0d0e;
-    background-color: burlywood;
-    margin: 0 5px 10px 5px;
+  height: 345px;
+  width: 175px;
+  border: 1px solid #f2f4f7;
+  background-color: #fff;
+  margin: 0 5px 10px 5px;
+  cursor: pointer;
+}
+
+.copyright {
+  background-color: #f1f1f1;
+  padding: 15px 0;
+}
+
+.footer1 {
+  display: flex;
+  justify-content: space-between;
+}
+
+section {
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.copyright p {
+    color: #666;
+    font-size: 12px;
 }
