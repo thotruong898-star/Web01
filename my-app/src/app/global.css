@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  /* background-color: #f9fafb; */
   background-color: #fff;
   font-size: 14px;
   font-family: sans-serif;
@@ -18,10 +19,12 @@
 
 .main {
   display: flex;
-  height: 1800px;
-  background-color: aqua;
+  height: 1200px;
+  max-height: 1500px;
+  background-color: #e9eff4;
   justify-content: center;
   overflow: hidden;
+  padding-bottom: 20px;
 }
 
 .main-test1 {
@@ -124,15 +127,23 @@
   cursor: pointer;
 }
 
+
 .copyright {
-  background-color: #f1f1f1;
   padding: 15px 0;
 }
 
 .footer1 {
+  padding: 15px 0;
+}
+
+.footer1 p {
+  margin-top: 15px;
+}
+
+.footer1 section {
   display: flex;
   justify-content: space-between;
-}
+} 
 
 section {
   width: 100%;
@@ -141,6 +152,7 @@ section {
 }
 
 .copyright p {
+  line-height: 1.5;
     color: #666;
     font-size: 12px;
 }

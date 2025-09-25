@@ -1,9 +1,10 @@
 export default function FooterPage() {
   return (
-    <div >
+    <div  >
     
       <div className="footer1">
-        <div>
+        <section>
+          <div>
           <p>
             <strong>Tổng đài hổ trợ</strong>
           </p>
@@ -69,6 +70,7 @@ export default function FooterPage() {
             <span>Gữi góp ý khiếu nại</span>
           </p>
         </div>
+        </section>
       </div>
 
 

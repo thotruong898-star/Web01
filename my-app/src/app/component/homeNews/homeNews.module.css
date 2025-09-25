@@ -1,0 +1,34 @@
+.homeNews {
+  border-radius: 12px;
+  padding: 20px;
+  background-color: #f9fafb;
+}
+
+.homeNews h2 {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 32px;
+  color: #1d2939;
+}
+
+.outer {
+  display: flex;
+}
+
+.outer div {
+  width: 25%;
+  /* border: 1px solid black; */
+  margin-right: 3px;
+}
+
+.outer div:not(:last-child) {
+  margin-right: 3px;
+}
+
+.outer div p {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  color: rgba(16, 24, 40, 1);
+  line-height: 20px;
+  padding-top: 10px;
+}

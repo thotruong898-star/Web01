@@ -4,7 +4,7 @@ import Styles from "./product.module.css";
 import React from "react";
 import Image from "next/image";
 import realmeC75 from "./img/realmeC75.jpg";
-import { styleText } from "node:util";
+
 
 export default function Product({ children }: { children: React.ReactNode }) {
   return (

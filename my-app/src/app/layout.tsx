@@ -3,6 +3,8 @@ import Footer from "./(Home)/(Footer)/Footer";
 import "./global.css";
 import Banner from "./(Home)/(Header)/banner/page";
 import Menu from "./(Home)/(Header)/menu/page";
+import SliderBanner from "./component/silder/sliderbaner";
+import HomeNews from "./component/homeNews/homeNews";
 
 export default function Rootlayout({
   children,
@@ -16,6 +18,8 @@ export default function Rootlayout({
             <Banner />
             <Menu />
             <Main>{children}</Main>
+            <SliderBanner/>
+            <HomeNews/>
             <Footer />
           </div>
       </body>
